@@ -1,0 +1,34 @@
+
+:root{
+    --text-font-family: "Roboto",sans-serif,arial;
+    --title-font-family: "Raleway",sans-serif,arial;
+    --body-color:#434455;
+    --title-color: #2E2F42;
+/* slate: #434455 
+navy blue: #2E2F42
+white: #fffffff
+black: #000000*/
+
+}
+.logo::before{ 
+    content: "WEB";
+    color: #4D5AE5;
+}
+.logo{
+    color:var(--title-color);
+    font-family: var(--title-font-family);
+    font-weight: 800;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: var(--text-font-family);
+    color: var(--body-color);
+}
+h1, .button-service{
+    color: #ffffff;
+}
